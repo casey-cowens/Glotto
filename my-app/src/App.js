@@ -1,15 +1,19 @@
+import React, { Component} from 'react'
+//import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import Translate from './components/Translate.js';
-import React from 'react'
+//import Translate from './components/Translate.js';
+
+class App extends Component {
+
+render(){
 
 
-function App() {
   return (
     <div className="App">
-            hello
-            {Translate}
+            <p></p>
     </div>
   );
+  }
 }
 
 export default App;
